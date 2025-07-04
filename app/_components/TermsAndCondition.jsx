@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
@@ -6,16 +5,6 @@ import Footer from './Footer';
 const TermsAndCondition = () => {
   return (
     <>
-      <Head>
-        <title>Terms & Conditions | AI Course Generator</title>
-        <meta
-          name="description"
-          content="Understand the terms and conditions for using AI Course Generator. We value transparency and trust."
-        />
-        <meta name="keywords" content="AI courses, terms, policies, legal agreement" />
-        <link rel="canonical" href="https://www.yourwebsite.com/terms-and-conditions" />
-      </Head>
-
       <Header />
 
       {/* Sky.gif background for Terms & Conditions */}

@@ -1,5 +1,4 @@
 "use client"
-import Head from 'next/head'
 import React, { useState, useRef } from 'react'
 import Header from './Header'
 import Footer from './Footer'
@@ -54,12 +53,6 @@ const ContactUs = () => {
   return (
     <>
     <Header/>
-     <Head>
-        <title>Contact Us | AI Course Generator</title>
-        <meta name="description" content="Get in touch with AI Course Generator for any inquiries, feedback, or support." />
-        <meta name="keywords" content="contact, customer support, AI courses" />
-        <link rel="canonical" href="https://https://mrpankajpandey-ai-course.vercel.app/contact-us" />
-      </Head>
       
       {/* Sky.gif background for Contact Us */}
       <div 
