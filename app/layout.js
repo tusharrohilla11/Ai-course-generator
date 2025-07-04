@@ -17,11 +17,16 @@ export const metadata = {
     title: "Create AI-Powered Courses & Share Your Knowledge",
     description:
       "Design smart courses in minutes using AI. Customize your path, share with friends, and earn from your ideas.",
-    url: "https://mrpankajpandey-ai-course.vercel.app/", 
-    image: "/images/og-image.png",
+    url: "https://ai-course-generator-tushar.vercel.app/", 
+    image: "/logo.svg",
     type: "website",
-  }
- 
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Course Generator",
+    description: "Generate custom AI courses effortlessly. Start your learning journey today!",
+    image: "/logo.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

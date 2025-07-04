@@ -58,6 +58,17 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+  
+  /* Fallback for CSS variables during static generation */
+  html {
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+  }
+  
+  html.dark {
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+  }
 }
 
 @layer base {
