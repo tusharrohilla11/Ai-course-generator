@@ -106,6 +106,8 @@ An AI-powered platform for creating and managing personalized online courses. Bu
 
 ## Live Demo :globe_with_meridians:
 
+Check out the live application: **[AI Course Generator](https://ai-course-generator-tushar.vercel.app/)**
+
 <a href="https://ai-course-generator-tushar.vercel.app/">
     <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
 </a>
