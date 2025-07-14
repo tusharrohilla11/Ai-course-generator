@@ -44,7 +44,7 @@ const Sidebar = () => {
     },
     {
       id: 3,
-      name: "Upgrade",
+      name: "TR Portfolio",
       icon: <HiOutlineShieldCheck />,
       path: "/dashboard/upgrade",
     },
