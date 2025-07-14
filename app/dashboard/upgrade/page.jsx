@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Upgrade = () => {
+const Portfolio = () => {
   return (
     <>
            <h2 className='font-medium text-lg mb-3'></h2>
@@ -16,4 +16,4 @@ const Upgrade = () => {
   )
 }
 
-export default Upgrade
+export default Portfolio
