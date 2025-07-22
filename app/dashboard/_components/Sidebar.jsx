@@ -46,7 +46,7 @@ const Sidebar = () => {
       id: 3,
       name: "TR Portfolio",
       icon: <HiOutlineShieldCheck />,
-      path: "/dashboard/upgrade",
+      path: "/dashboard/tr_portfolio",
     },
     ...(isAdmin
       ? [
