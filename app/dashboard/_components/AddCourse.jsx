@@ -19,7 +19,7 @@ const Addcourse = () => {
   const maxCourses = adminConfig.maxCoursesForFreeUser || 10;
   const hasCourseLimit = userCourseList?.length >= maxCourses;
   
-  const destination = isAdmin || !hasCourseLimit ? '/create-course' : '/dashboard/upgrade';
+  const destination = isAdmin || !hasCourseLimit ? '/create-course' : '/dashboard/tr_portfolio';
     
   return (
     <div  className='flex justify-between items-center'>
