@@ -47,7 +47,7 @@ const Header = () => {
       id: 3,
       name: "Upgrade",
       icon: <HiOutlineShieldCheck />,
-      path: "/dashboard/upgrade",
+      path: "/dashboard/tr_portfolio",
     },
     ...(isAdmin
       ? [
