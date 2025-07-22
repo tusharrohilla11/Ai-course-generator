@@ -48,16 +48,16 @@ const Sidebar = () => {
       icon: <HiOutlineShieldCheck />,
       path: "/dashboard/tr_portfolio",
     },
-    ...(isAdmin
-      ? [
-          {
-            id: 5,
-            name: "Admin Users",
-            icon: <HiOutlineShieldCheck />,
-            path: "/dashboard/admin-users",
-          },
-        ]
-      : []),
+    // ...(isAdmin
+    //   ? [
+    //       {
+    //         id: 5,
+    //         name: "Admin Users",
+    //         icon: <HiOutlineShieldCheck />,
+    //         path: "/dashboard/admin-users",
+    //       },
+    //     ]
+    //   : []),
 
     {
       id: 4,
